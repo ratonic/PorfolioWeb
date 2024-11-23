@@ -1,0 +1,17 @@
+{
+    "Simple React Component": {
+        "prefix": "rcsimple",
+        "body": [
+            "const ${1:ComponentName} = () => {",
+            "    return (",
+            "        <div>",
+            "            ${2:/* Add content here */}",
+            "        </div>",
+            "    );",
+            "};",
+            "",
+            "export default ${1:ComponentName};"
+        ],
+        "description": "Crea un componente funcional simple de React"
+    }
+}
